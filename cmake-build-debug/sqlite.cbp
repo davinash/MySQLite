@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sqlite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adongre/sqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/adongre/sqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/adongre/sqlite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite">
+				<Option output="/home/adongre/sqlite/cmake-build-debug/sqlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adongre/sqlite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adongre/sqlite/bld"/>
+					<Add directory="/home/adongre/sqlite/bld/tsrc"/>
+					<Add directory="/home/adongre/sqlite/ext/async"/>
+					<Add directory="/home/adongre/sqlite/ext/expert"/>
+					<Add directory="/home/adongre/sqlite/ext/fts1"/>
+					<Add directory="/home/adongre/sqlite/ext/fts2"/>
+					<Add directory="/home/adongre/sqlite/ext/fts3"/>
+					<Add directory="/home/adongre/sqlite/ext/fts5"/>
+					<Add directory="/home/adongre/sqlite/ext/icu"/>
+					<Add directory="/home/adongre/sqlite/ext/lsm1"/>
+					<Add directory="/home/adongre/sqlite/ext/lsm1/lsm-test"/>
+					<Add directory="/home/adongre/sqlite/ext/rbu"/>
+					<Add directory="/home/adongre/sqlite/ext/rtree"/>
+					<Add directory="/home/adongre/sqlite/ext/session"/>
+					<Add directory="/home/adongre/sqlite/ext/userauth"/>
+					<Add directory="/home/adongre/sqlite/src"/>
+					<Add directory="/home/adongre/sqlite/vsixtest"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlite"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite/fast">
+				<Option output="/home/adongre/sqlite/cmake-build-debug/sqlite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adongre/sqlite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/adongre/sqlite/bld"/>
+					<Add directory="/home/adongre/sqlite/bld/tsrc"/>
+					<Add directory="/home/adongre/sqlite/ext/async"/>
+					<Add directory="/home/adongre/sqlite/ext/expert"/>
+					<Add directory="/home/adongre/sqlite/ext/fts1"/>
+					<Add directory="/home/adongre/sqlite/ext/fts2"/>
+					<Add directory="/home/adongre/sqlite/ext/fts3"/>
+					<Add directory="/home/adongre/sqlite/ext/fts5"/>
+					<Add directory="/home/adongre/sqlite/ext/icu"/>
+					<Add directory="/home/adongre/sqlite/ext/lsm1"/>
+					<Add directory="/home/adongre/sqlite/ext/lsm1/lsm-test"/>
+					<Add directory="/home/adongre/sqlite/ext/rbu"/>
+					<Add directory="/home/adongre/sqlite/ext/rtree"/>
+					<Add directory="/home/adongre/sqlite/ext/session"/>
+					<Add directory="/home/adongre/sqlite/ext/userauth"/>
+					<Add directory="/home/adongre/sqlite/src"/>
+					<Add directory="/home/adongre/sqlite/vsixtest"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlite/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/adongre/sqlite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adongre/sqlite/autoconf/tea/win/nmakehlp.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/config.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/fts5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/fts5.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/fts5parse.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/fts5parse.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/keywordhash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/lempar.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/opcodes.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/opcodes.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/parse.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/parse.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/shell.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/sqlite3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/sqlite3.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/sqlite3ext.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/sqlite3session.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/alter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/analyze.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/attach.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/auth.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/backup.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/bitvec.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/btmutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/btree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/btree.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/btreeInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/build.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/callback.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/complete.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/config.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/ctime.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/date.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/dbpage.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/dbstat.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/delete.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/expr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fault.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fkey.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts1_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_tokenizer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts2_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3Int.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_aux.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_expr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_snippet.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_tokenize_vtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_tokenizer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_unicode.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_unicode2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts3_write.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/fts5.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/func.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/geopoly.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/global.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/hwtime.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/insert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/json1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/keywordhash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/legacy.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/loadext.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/malloc.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mem0.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mem1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mem2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mem3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mem5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/memdb.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/memjournal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/msvc.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mutex.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mutex_noop.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mutex_unix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/mutex_w32.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/notify.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/opcodes.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/opcodes.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os_common.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os_setup.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os_unix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os_win.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/os_win.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pager.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pager.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/parse.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/parse.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pcache.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pcache.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pcache1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pragma.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/pragma.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/prepare.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/printf.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/random.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/resolve.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/rowset.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/rtree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/rtree.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/select.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/shell.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3ext.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3rbu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3rbu.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3session.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqlite3session.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqliteInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqliteLimit.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/sqliteicu.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/status.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/stmt.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/table.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/tclsqlite.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/threads.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/tokenize.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/treeview.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/trigger.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/update.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/upsert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/utf.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/util.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vacuum.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbe.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbe.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbeInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbeapi.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbeaux.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbeblob.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbemem.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbesort.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vdbetrace.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/vxworks.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/wal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/wal.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/walker.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/where.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/whereInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/wherecode.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/whereexpr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/bld/tsrc/window.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/async/sqlite3async.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/async/sqlite3async.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/expert/expert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/expert/sqlite3expert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/expert/sqlite3expert.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/expert/test_expert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/ft_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/ft_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fts1_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fulltext.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/fulltext.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/simple_tokenizer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts1/tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_tokenizer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts2/fts2_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3Int.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_aux.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_expr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_porter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_snippet.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_term.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_test.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_tokenize_vtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_tokenizer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_tokenizer.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_tokenizer1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_unicode.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_unicode2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/fts3_write.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts3/tool/fts3view.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5Int.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_aux.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_buffer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_config.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_expr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_index.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_storage.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_tcl.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_test_mi.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_test_tok.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_tokenize.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_unicode2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_varint.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/fts5/fts5_vocab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/icu/icu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/icu/sqliteicu.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest4.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest6.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest7.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest8.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest9.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_bt.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_datasource.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_func.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_io.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_mem.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_tdb.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_tdb.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_tdb2.cc">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_tdb3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_tdb4.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_util.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm-test/lsmtest_win32.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsmInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_ckpt.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_file.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_log.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_mem.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_mutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_shared.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_sorted.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_str.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_tree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_unix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_varint.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_vtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/lsm1/lsm_win32.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/amatch.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/anycollseq.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/appendvfs.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/btreeinfo.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/carray.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/closure.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/completion.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/compress.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/csv.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/dbdump.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/eval.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/fileio.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/fuzzer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/ieee754.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/json1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/memvfs.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/mmapwarm.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/nextchar.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/normalize.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/percentile.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/regexp.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/remember.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/rot13.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/scrub.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/series.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/sha1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/shathree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/showauth.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/spellfix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/sqlar.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/stmt.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/templatevtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/totype.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/unionvtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/vfslog.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/vfsstat.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/vtablog.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/vtshim.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/wholenumber.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/zipfile.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/misc/zorder.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rbu/rbu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rbu/sqlite3rbu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rbu/sqlite3rbu.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rbu/test_rbu.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/repair/checkfreelist.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/repair/checkindex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rtree/geopoly.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rtree/rtree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rtree/rtree.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/rtree/sqlite3rtree.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/session/changeset.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/session/session_speed_test.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/session/sqlite3session.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/session/sqlite3session.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/session/test_session.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/userauth/sqlite3userauth.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/ext/userauth/userauth.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/mptest/mptest.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/alter.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/analyze.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/attach.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/auth.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/backup.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/bitvec.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/btmutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/btree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/btree.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/btreeInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/build.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/callback.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/complete.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/ctime.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/date.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/dbpage.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/dbstat.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/delete.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/expr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/fault.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/fkey.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/func.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/global.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/hash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/hash.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/hwtime.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/insert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/legacy.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/loadext.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/malloc.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mem0.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mem1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mem2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mem3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mem5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/memdb.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/memjournal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/msvc.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mutex.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mutex_noop.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mutex_unix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/mutex_w32.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/notify.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os_common.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os_setup.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os_unix.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os_win.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/os_win.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pager.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pager.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pcache.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pcache.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pcache1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pragma.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/pragma.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/prepare.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/printf.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/random.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/resolve.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/rowset.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/select.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/sqlite3ext.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/sqliteInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/sqliteLimit.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/status.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/table.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/tclsqlite.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test4.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test6.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test7.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test8.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test9.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_async.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_autoext.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_backup.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_bestindex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_blob.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_btree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_config.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_delete.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_demovfs.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_devsym.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_fs.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_func.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_hexio.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_init.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_intarray.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_intarray.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_journal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_loadext.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_malloc.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_md5.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_multiplex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_multiplex.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_mutex.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_onefile.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_osinst.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_pcache.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_quota.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_quota.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_rtree.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_schema.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_server.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_sqllog.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_superlock.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_syscall.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_tclsh.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_tclvar.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_thread.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_vfs.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_vfstrace.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_windirent.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_windirent.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_window.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/test_wsd.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/threads.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/tokenize.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/treeview.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/trigger.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/update.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/upsert.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/utf.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/util.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vacuum.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbe.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbe.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbeInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbeapi.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbeaux.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbeblob.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbemem.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbesort.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vdbetrace.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vtab.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/vxworks.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/wal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/wal.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/walker.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/where.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/whereInt.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/wherecode.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/whereexpr.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/src/window.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/atrc.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/crashtest1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/dbfuzz.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/fuzzcheck.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/kvtest.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/optfuzz-db01.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/optfuzz.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/ossfuzz.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/ossshell.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/sessionfuzz.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/speedtest1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/threadtest1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/threadtest2.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/threadtest3.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/threadtest4.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/tt3_checkpoint.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/tt3_index.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/tt3_lookaside1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/tt3_stress.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/tt3_vacuum.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/test/wordcount.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/checkSpacing.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/dbhash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/extract.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/fast_vacuum.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/fuzzershell.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/getlock.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/lemon.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/lempar.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/libvers.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/loadfts.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/logest.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/max-limits.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/mkkeywordhash.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/mksourceid.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/offsets.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/pagesig.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/rollback-test.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showdb.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showjournal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showlocks.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showshm.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showstat4.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/showwal.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/speedtest16.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/speedtest8.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/speedtest8inst1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/sqldiff.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/srcck1.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/tool/varint.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/App.xaml.cpp">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/App.xaml.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/MainPage.xaml.cpp">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/MainPage.xaml.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/pch.cpp">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/vsixtest/pch.h">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/home/adongre/sqlite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
